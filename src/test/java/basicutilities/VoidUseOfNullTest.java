@@ -10,6 +10,6 @@ public class VoidUseOfNullTest {
 	public void testOptional() {
 		Optional<Integer> possible = Optional.of(100);
 		System.out.println(possible.isPresent());
-
+		System.out.println(possible.get());
 	}
 }
